@@ -1,0 +1,70 @@
+/* Legal pages – The Last Siege - Tower Defense */
+:root {
+  --bg: #0d0d12;
+  --surface: #1a1a24;
+  --text: #e0e0e8;
+  --text-muted: #9a9aaa;
+  --accent: #5a7aff;
+  --link: #6b8cff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  margin: 0;
+  padding: 1rem;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p, ul {
+  margin: 0.5rem 0;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+nav a {
+  margin-right: 1rem;
+}
+
+.meta {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
